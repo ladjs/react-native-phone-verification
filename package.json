@@ -1,0 +1,47 @@
+{
+  "name": "react-native-phone-verification",
+  "description": "The best React Native example for phone verification",
+  "version": "0.0.1",
+  "author": "Nick Baugh <niftylettuce@gmail.com>",
+  "bugs": {
+    "url": "https://github.com/niftylettuce/react-native-phone-verification",
+    "email": "niftylettuce@gmail.com"
+  },
+  "homepage": "https://github.com/niftylettuce/react-native-phone-verification",
+  "keywords": [
+    "react",
+    "react-native",
+    "native",
+    "phone",
+    "verification",
+    "verify",
+    "auth",
+    "pin",
+    "code",
+    "digits",
+    "twitter",
+    "fabric",
+    "twitter-digits",
+    "google",
+    "twilio",
+    "crocodile",
+    "two-factor",
+    "tfa",
+    "two",
+    "factor",
+    "authentication",
+    "authy",
+    "prove",
+    "duo",
+    "security",
+    "authenticator",
+    "mobile",
+    "ios",
+    "android"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/niftylettuce/react-native-phone-verification"
+  }
+}
