@@ -3061,10 +3061,6 @@ react-deep-force-update@^1.0.0:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/react-deep-force-update/-/react-deep-force-update-1.0.1.tgz#f911b5be1d2a6fe387507dd6e9a767aa2924b4c7"
 
-react-native-android-sms-listener@^0.4.1:
-  version "0.4.1"
-  resolved "https://registry.yarnpkg.com/react-native-android-sms-listener/-/react-native-android-sms-listener-0.4.1.tgz#7656fabc2c81ddcce54a980b235030d0c0c9efd9"
-
 react-native-country-picker-modal@niftylettuce/react-native-country-picker-modal:
   version "0.2.8"
   resolved "https://codeload.github.com/niftylettuce/react-native-country-picker-modal/tar.gz/da3eb2440d63b10e25e74eff238d95a8b3e04688"

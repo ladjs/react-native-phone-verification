@@ -16,6 +16,9 @@ The best React Native example for phone verification (an alternative to [Twitter
 * :flags: Built-in country picker (uses [react-native-country-picker-modal][react-native-country-picker-modal])!
 * :wrench: Completely customizable form (uses [react-native-form][react-native-form], but you could also use [tcomb-form-native][tcomb-form-native])!
 * :crystal_ball: Spinner overlay (uses [react-native-loading-spinner-overlay][react-native-loading-spinner-overlay])!
+
+## Wishlist
+
 * :sparkles: Optional Android support for reading verification codes automatically (uses [react-native-android-sms-listener][react-native-android-sms-listener])!
 
 ## Usage
@@ -37,13 +40,13 @@ The best React Native example for phone verification (an alternative to [Twitter
   > If you're using `npm` to install packages:
 
   ```bash
-  npm install --save frisbee react-native-android-sms-listener niftylettuce/react-native-country-picker-modal react-native-form react-native-loading-spinner-overlay
+  npm install --save frisbee niftylettuce/react-native-country-picker-modal react-native-form react-native-loading-spinner-overlay
   ```
 
   > Or, if you're using `yarn` to install packages:
 
   ```bash
-  yarn add frisbee react-native-android-sms-listener niftylettuce/react-native-country-picker-modal react-native-form react-native-loading-spinner-overlay
+  yarn add frisbee niftylettuce/react-native-country-picker-modal react-native-form react-native-loading-spinner-overlay
   ```
 
 4. See [example][example] directory for how to integrate into your codebase (you can also just clone this repo and run the example to test it out).
