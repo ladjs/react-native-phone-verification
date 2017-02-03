@@ -135,10 +135,12 @@ export default class example extends Component {
           verification: res.body
         });
         this.refs.form.refs.textInput.setNativeProps({ text: '' });
-        this.refs.form.refs.textInput.focus();
 
         setTimeout(() => {
-          Alert.alert('Sent!', "We've sent you a verification code");
+          Alert.alert('Sent!', "We've sent you a verification code", [{
+            text: 'OK',
+            onPress: () => this.refs.form.refs.textInput.focus()
+          }]);
         }, 100);
 
       } catch (err) {
