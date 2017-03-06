@@ -219,7 +219,7 @@ export default class example extends Component {
 
     return (
       <View>
-        <Text style={styles.disclaimerText}>By tapping "Send confirmation code" above, we will send you an SMS to confirm your phone number. Message &amp; data rates may apply."</Text>
+        <Text style={styles.disclaimerText}>By tapping "Send confirmation code" above, we will send you an SMS to confirm your phone number. Message &amp; data rates may apply.</Text>
       </View>
     );
 
