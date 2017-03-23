@@ -30,6 +30,9 @@ const api = new Frisbee({
   }
 });
 
+const MAX_LENGTH_CODE = 6;
+const MAX_LENGTH_NUMBER = 20;
+
 // if you want to customize the country picker
 const countryPickerCustomStyles = {};
 
@@ -191,6 +194,12 @@ export default class example extends Component {
 
   }
 
+  _onChangeText = (val) => {
+    if (!this.state.enterCode) return;
+    if (val.length === MAX_LENGTH_CODE)
+    this._verifyCode();
+  }
+
   _tryAgain = () => {
     this.refs.form.refs.textInput.setNativeProps({ text: '' })
     this.refs.form.refs.textInput.focus();
@@ -292,6 +301,7 @@ export default class example extends Component {
               underlineColorAndroid={'transparent'}
               autoCapitalize={'none'}
               autoCorrect={false}
+              onChangeText={this._onChangeText}
               placeholder={this.state.enterCode ? '_ _ _ _ _ _' : 'Phone Number'}
               keyboardType={Platform.OS === 'ios' ? 'number-pad' : 'numeric'}
               style={[ styles.textInput, textStyle ]}
