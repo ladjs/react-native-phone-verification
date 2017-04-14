@@ -26,7 +26,7 @@ The best React Native example for phone verification (an alternative to [Twitter
 1. Install [React Native][react-native]:
 
   ```bash
-  npm install -g react-native
+  npm install -g react-native-cli
   ```
 
 2. Initialize a new project:
