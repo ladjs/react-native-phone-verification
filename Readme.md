@@ -40,13 +40,13 @@ The best React Native example for phone verification (an alternative to [Twitter
   > If you're using `npm` to install packages:
 
   ```bash
-  npm install --save frisbee niftylettuce/react-native-country-picker-modal react-native-form react-native-loading-spinner-overlay
+  npm install --save frisbee react-native-country-picker-modal react-native-form react-native-loading-spinner-overlay
   ```
 
   > Or, if you're using `yarn` to install packages:
 
   ```bash
-  yarn add frisbee niftylettuce/react-native-country-picker-modal react-native-form react-native-loading-spinner-overlay
+  yarn add frisbee react-native-country-picker-modal react-native-form react-native-loading-spinner-overlay
   ```
 
 4. See [example][example] directory for how to integrate into your codebase (you can also just clone this repo and run the example to test it out).
