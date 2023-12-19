@@ -7,9 +7,9 @@
 		"test": "jest"
 	},
 	"dependencies": {
-		"frisbee": "^1.1.7",
+		"frisbee": "^3.1.2",
 		"react": "~15.4.0-rc.4",
-		"react-native": "0.40.0",
+		"react-native": "0.69.12",
 		"react-native-country-picker-modal": "niftylettuce/react-native-country-picker-modal",
 		"react-native-form": "^2.1.2",
 		"react-native-loading-spinner-overlay": "^0.4.1"
